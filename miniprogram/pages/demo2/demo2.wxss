@@ -1,0 +1,8 @@
+rich-text{
+  padding: 50rpx;
+}
+
+.words_prettify{
+	word-break: break-all;
+  white-space: pre-warp;
+}

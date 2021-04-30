@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "testCloud",
+          "pathName": "pages/demo1/demo1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "demo2",
+          "pathName": "pages/demo2/demo2",
+          "query": "id=448553",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

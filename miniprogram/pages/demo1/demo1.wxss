@@ -1,0 +1,38 @@
+.item_gwt {
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+}
+.item_gwt navigator .title {
+  display: flex;
+}
+.item_gwt navigator .title .seq {
+  flex: 1;
+  color: #00b26a;
+}
+.item_gwt navigator .title .title_content {
+  flex: 15;
+}
+.item_gwt navigator .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.item_gwt navigator .more .cate {
+  flex: 1;
+  text-align: center;
+}
+.item_gwt navigator .more .apart {
+  flex: 2;
+  text-align: center;
+}
+.item_gwt navigator .more .date {
+  flex: 1;
+  text-align: center;
+}
+
+rich-text{
+  padding:20rpx;
+}

@@ -1,0 +1,17 @@
+<!-- <view class="search">
+  <mp-searchbar></mp-searchbar>
+</view> -->
+<view class="item_gwt" wx:for="{{datalist}}" wx:key="index">
+  <navigator url="/pages/demo2/demo2?id={{item[6]}}">         
+    <view class="title">
+      <view class="seq">{{item[0]}}</view>
+      <view class="title_content"> {{item[3]}}</view>
+    </view>
+    <view class="more">
+      <view class="cate">{{item[1]}}</view>
+      <view class="apart">{{item[2]}}</view>
+      <view class="date">{{item[4]}}</view>
+    </view>
+  </navigator>
+</view>
+
